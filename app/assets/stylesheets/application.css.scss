@@ -16,6 +16,68 @@
 @import "bootstrap";
 @import "cover";
 
-.container {
-  width: 700px;
+body {
+  padding-top: 84px;
 }
+
+.the-first {
+  width: 1286px;
+  height: 869px;
+  background-image: url("image_1.jpg");
+  background-size: 1286px 869px;
+  color: #ffffff;
+  text-weight: bold;
+
+  .form-log {
+    margin-top: 500px;
+    text-align: center;
+    
+    .form-inline {
+      .form-group {
+        .form-control.input-lg {
+          border-radius: 0px;
+          // opacity: 0.9;
+        }
+      }
+
+      .btn.btn-success.btn-lg {
+        width: 266px;
+        border-radius: 0px;
+      }
+    }  
+  }
+}
+
+.the-ctr {
+  text-align: center;
+}
+
+.form-homepage {
+  text-align: center;
+  width: 1286px;
+  height: 869px;
+  background-image: url("image_2.jpg");
+  background-size: 1286px 869px;
+
+  .form-title {
+    color: #ffffff;
+    text-weight: bold;
+  }
+
+  form {
+    .form-group {
+      .form-control.input-lg {
+        background-color: rgba(130, 130, 130, 0.5);
+        border-radius: 0px;
+     
+      }
+    }
+
+    .btn.btn-warning.btn-lg {
+      width: 1140px;
+      border-radius: 0px;
+    }
+  
+  }
+}
+
