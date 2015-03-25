@@ -23,8 +23,8 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: skippt_production
+  database: skippr_production
   host: localhost
   pool: 5
-  username: 
-  password:
+  username: postgres
+  password: hengun
