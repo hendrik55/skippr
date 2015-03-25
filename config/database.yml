@@ -5,8 +5,8 @@ development:
   database: skippr_development
   host: localhost
   pool: 
-  username: 
-  password: 
+  username: postgres
+  password: hengun
  
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -17,8 +17,8 @@ test:
   database: test_development
   host: localhost
   pool: 5
-  username: 
-  password: 
+  username: postgres
+  password: hengun
  
 production:
   adapter: postgresql

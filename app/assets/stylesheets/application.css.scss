@@ -13,4 +13,9 @@
  *= require_self
  */
 
- @import "bootstrap";
+@import "bootstrap";
+@import "cover";
+
+.container {
+  width: 700px;
+}
