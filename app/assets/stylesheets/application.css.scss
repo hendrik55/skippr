@@ -20,6 +20,10 @@ body {
   padding-top: 84px;
 }
 
+.vetical-line {
+
+}
+
 .the-first {
   width: 1286px;
   height: 869px;
@@ -27,6 +31,11 @@ body {
   background-size: 1286px 869px;
   color: #ffffff;
   text-weight: bold;
+
+  .top-title {
+    padding-top: 100px;
+    padding-left: 100px;
+  }
 
   .form-log {
     margin-top: 500px;
@@ -40,9 +49,11 @@ body {
         }
       }
 
-      .btn.btn-success.btn-lg {
+      button.btn.btn-success.btn-lg {
         width: 266px;
         border-radius: 0px;
+        background-color: #579799;
+        border: 1px solid #579799;
       }
     }  
   }
@@ -50,6 +61,23 @@ body {
 
 .the-ctr {
   text-align: center;
+  
+  .text-left {
+    .media {
+      .media-body {
+        text-align: justify;
+      }
+    }
+  }
+
+  .text-right {
+    .media {
+      .media-body {
+        text-align: right;
+      }
+    }
+  }
+
 }
 
 .form-homepage {
@@ -59,25 +87,28 @@ body {
   background-image: url("image_2.jpg");
   background-size: 1286px 869px;
 
-  .form-title {
-    color: #ffffff;
-    text-weight: bold;
-  }
+  .about-form {
+    padding-top: 150px;
 
-  form {
-    .form-group {
-      .form-control.input-lg {
-        background-color: rgba(130, 130, 130, 0.5);
+    .form-title {
+      color: #ffffff;
+      text-weight: bold;
+    }
+
+    form {
+      .form-group {
+        .form-control.input-lg {
+          // background-color: rgba(130, 130, 130, 0.5);
+          border-radius: 0px;
+          color: #000000;
+        }
+      }
+
+      .btn.btn-warning.btn-lg {
+        width: 1140px;
         border-radius: 0px;
-     
       }
     }
-
-    .btn.btn-warning.btn-lg {
-      width: 1140px;
-      border-radius: 0px;
-    }
-  
-  }
+  }  
 }
 
