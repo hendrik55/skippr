@@ -25,7 +25,6 @@ body {
 }
 
 .the-first {
-  width: 1286px;
   height: 869px;
   background-image: url("image_1.jpg");
   background-size: 1286px 869px;
@@ -45,7 +44,7 @@ body {
       .form-group {
         .form-control.input-lg {
           border-radius: 0px;
-          // opacity: 0.9;
+          background:rgba(255,255,255, 0.9);
         }
       }
 
@@ -82,10 +81,9 @@ body {
 
 .form-homepage {
   text-align: center;
-  width: 1286px;
   height: 869px;
   background-image: url("image_2.jpg");
-  background-size: 1286px 869px;
+  margin-top: 50px;
 
   .about-form {
     padding-top: 150px;
@@ -98,9 +96,9 @@ body {
     form {
       .form-group {
         .form-control.input-lg {
-          // background-color: rgba(130, 130, 130, 0.5);
           border-radius: 0px;
           color: #000000;
+          background:rgba(255,255,255, 0.9);
         }
       }
 
