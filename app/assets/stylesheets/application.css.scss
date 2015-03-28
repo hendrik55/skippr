@@ -20,24 +20,24 @@ body {
   padding-top: 84px;
 }
 
-.vetical-line {
-
+.logo-skiprr {
+  padding-bottom: 30px;
 }
 
 .the-first {
-  height: 869px;
+  height: 557px;
   background-image: url("image_1.jpg");
-  background-size: 1286px 869px;
+  background-size: 1286px 557px;
   color: #ffffff;
   text-weight: bold;
 
   .top-title {
-    padding-top: 100px;
-    padding-left: 100px;
+    width: 767px;
+   
   }
 
   .form-log {
-    margin-top: 500px;
+    margin-top: 300px;
     text-align: center;
     
     .form-inline {
@@ -60,11 +60,17 @@ body {
 
 .the-ctr {
   text-align: center;
+
+  .title-inside {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
   
   .text-left {
     .media {
       .media-body {
         text-align: justify;
+        padding-bottom: 15px;
       }
     }
   }
@@ -73,6 +79,7 @@ body {
     .media {
       .media-body {
         text-align: right;
+        padding-bottom: 15px;
       }
     }
   }
@@ -91,20 +98,31 @@ body {
     .form-title {
       color: #ffffff;
       text-weight: bold;
+      padding-bottom: 40px;
     }
 
     form {
       .form-group {
+        margin-top: -10px;
+
         .form-control.input-lg {
           border-radius: 0px;
           color: #000000;
           background:rgba(255,255,255, 0.9);
+          height :60px;
+        }
+
+        textarea.form-control.input-lg {
+          height :200px;
         }
       }
 
       .btn.btn-warning.btn-lg {
         width: 1140px;
+        height :60px;
         border-radius: 0px;
+        margin-top: -10px;
+
       }
     }
   }  
