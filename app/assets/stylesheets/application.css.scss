@@ -16,28 +16,20 @@
 @import "bootstrap";
 @import "cover";
 
-body {
-  padding-top: 84px;
-}
-
-.logo-skiprr {
-  padding-bottom: 30px;
-}
-
 .the-first {
-  height: 557px;
+  height: 535px;
   background-image: url("image_1.jpg");
-  background-size: 1286px 557px;
+  background-size: 1286px 535px;
   color: #ffffff;
   text-weight: bold;
 
   .top-title {
     width: 767px;
-   
+    margin-top: 60px;
   }
 
   .form-log {
-    margin-top: 300px;
+    margin-top: 210px;
     text-align: center;
     
     .form-inline {
@@ -102,6 +94,9 @@ body {
     }
 
     form {
+      width: 600px;
+      margin-left: 300px;
+
       .form-group {
         margin-top: -10px;
 
@@ -109,7 +104,6 @@ body {
           border-radius: 0px;
           color: #000000;
           background:rgba(255,255,255, 0.9);
-          height :60px;
         }
 
         textarea.form-control.input-lg {
@@ -118,11 +112,10 @@ body {
       }
 
       .btn.btn-warning.btn-lg {
-        width: 1140px;
+        width: 600px;
         height :60px;
         border-radius: 0px;
         margin-top: -10px;
-
       }
     }
   }  

@@ -4,6 +4,10 @@
   padding: 15px 30px 0 30px;
 }
 
+.masthead-nav {
+  margin-bottom: 50px;
+}
+
 .masthead.clearfix {
   background-color: #ffffff;
 }
@@ -44,25 +48,6 @@
   }
   .masthead-nav {
     float: right;
-  }
-}
-
-/*
- * Affix and center
- */
-@media (min-width: 768px) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-    width: 1000px;
-  }
-
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
 
