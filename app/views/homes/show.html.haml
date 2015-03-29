@@ -65,24 +65,23 @@
             .media-right
               = image_tag "circle.png", class: 'media-object', alt: 'Generic placeholder image', width: '80px', height: '80px'
 
-.row
-  .form-homepage
-    .about-form
-      .form-title
-        %h1 FIND OUT MORE
-        %h3 Tell us whatyou wish to schieve. We wil you how we can do it.
-      
-      .container
-        %form
-          .form-group
-            %input.form-control.input-lg{:placeholder => "Full Name", :type => "text"}/
-          .form-group
-            %input.form-control.input-lg{:placeholder => "E-mail", :type => "text"}/
-          .form-group
-            %input.form-control.input-lg{:placeholder => "Subject", :type => "text"}/
-          .form-group
-            %textarea.form-control.input-lg{:rows => "3", placeholder: 'Message'}
-          %button.btn.btn-warning.btn-lg{:type => "button"} Send
+.form-homepage
+  .about-form
+    .form-title
+      %h1 FIND OUT MORE
+      %h3 Tell us whatyou wish to schieve. We wil you how we can do it.
+    
+    .container
+      %form
+        .form-group
+          %input.form-control.input-lg{:placeholder => "Full Name", :type => "text"}/
+        .form-group
+          %input.form-control.input-lg{:placeholder => "E-mail", :type => "text"}/
+        .form-group
+          %input.form-control.input-lg{:placeholder => "Subject", :type => "text"}/
+        .form-group
+          %textarea.form-control.input-lg{:rows => "3", placeholder: 'Message'}
+        %button.btn.btn-warning.btn-lg{:type => "button"} Send
 
 
-      
+    
