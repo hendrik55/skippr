@@ -64,6 +64,10 @@
   .title-inside {
     padding-top: 20px;
     padding-bottom: 20px;
+
+    h1, h3, h4 {
+      color: #5C5C5C;
+    }
   }
   
   .text-left {
@@ -71,6 +75,15 @@
       .media-body {
         text-align: justify;
         padding-bottom: 15px;
+
+        h4.media-heading {
+          color: #5C5C5C;
+        }
+
+        p {
+          color: #858585;
+        }
+
       }
     }
   }
@@ -87,10 +100,18 @@
       .media-body {
         text-align: right;
         padding-bottom: 15px;
+        
+        h4.media-heading {
+          color: #5C5C5C;
+        }
+
+        p {
+          color: #858585;
+        }
+
       }
     }
   }
-
 }
 
 .form-homepage {
