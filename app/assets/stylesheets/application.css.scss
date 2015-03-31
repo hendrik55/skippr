@@ -14,12 +14,12 @@
  */
 
 @import "bootstrap";
+@import "non-responsive";
 @import "cover";
 
 .the-first {
-  height: 535px;
+  height: 869px;
   background-image: url("image_1.jpg");
-  background-size: 1286px 535px;
   background-repeat: no-repeat;
   color: #ffffff;
   text-weight: bold;
@@ -40,13 +40,13 @@
           -webkit-box-shadow: 0 0 5px 6px rgba(0, 0, 0, 0.5);
         
         .form-control.input-lg {
-          background:rgba(255,255,255, 0.9);
+          background: rgba(255,255,255, 0.9);
           border-radius: 0px;
         }
       }
 
       button.btn.btn-success.btn-lg {
-        width: 266px;
+        width: 150px;
         border-radius: 0px;
         background-color: #579799;
         border: 1px solid #579799;
@@ -116,8 +116,9 @@
 
 .form-homepage {
   text-align: center;
-  height: 869px;
+  height: 918px;
   background-image: url("image_2.jpg");
+  background-repeat: no-repeat;
   margin-top: 50px;
 
   .about-form {
@@ -139,7 +140,7 @@
         .form-control.input-lg {
           border-radius: 0px;
           color: #000000;
-          background:rgba(255,255,255, 0.9);
+          background: rgba(255,255,255, 0.9);
         }
 
         textarea.form-control.input-lg {

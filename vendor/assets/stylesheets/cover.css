@@ -42,12 +42,11 @@
   border-bottom-color: #5C5C5C;
 }
 
-@media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
+.masthead-brand {
+  float: left;
 }
+.masthead-nav {
+  float: right;
+}
+
 
