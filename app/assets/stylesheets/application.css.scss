@@ -18,9 +18,9 @@
 @import "cover";
 
 .the-first {
+  background: url("image_1.jpg") no-repeat center center;
+  background-size: cover;
   height: 869px;
-  background-image: url("image_1.jpg");
-  background-repeat: no-repeat;
   color: #ffffff;
   text-weight: bold;
 
@@ -30,8 +30,8 @@
   }
 
   .form-log {
-    margin-top: 210px;
-    text-align: center;
+    margin-top: 440px;
+    text-align: center; 
     
     .form-inline {
       .form-group {
@@ -40,7 +40,7 @@
           -webkit-box-shadow: 0 0 5px 6px rgba(0, 0, 0, 0.5);
         
         .form-control.input-lg {
-          background: rgba(255,255,255, 0.9);
+          background: rgba(255,255,255, 0.8);
           border-radius: 0px;
         }
       }
@@ -117,8 +117,8 @@
 .form-homepage {
   text-align: center;
   height: 918px;
-  background-image: url("image_2.jpg");
-  background-repeat: no-repeat;
+  background: url("image_2.jpg") no-repeat center center;
+  background-size: cover;
   margin-top: 50px;
 
   .about-form {
@@ -140,7 +140,7 @@
         .form-control.input-lg {
           border-radius: 0px;
           color: #000000;
-          background: rgba(255,255,255, 0.9);
+          background: rgba(255,255,255, 0.8);
         }
 
         textarea.form-control.input-lg {
