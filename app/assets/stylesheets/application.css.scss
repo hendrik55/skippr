@@ -17,6 +17,13 @@
 @import "non-responsive";
 @import "cover";
 
+@font-face {
+  font-family: "Helvetica Neue";
+    src: url('HelveticaNeueLTStd Lt.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .the-first {
   background: url("image_1.jpg") no-repeat center center;
   background-size: cover;
@@ -27,6 +34,7 @@
   .top-title {
     width: 767px;
     margin-top: 60px;
+    font-family: "Helvetica Neue";
   }
 
   .form-log {
@@ -60,6 +68,7 @@
 
 .the-ctr {
   text-align: center;
+  font-family: "Helvetica Neue";
 
   .title-inside {
     padding-top: 20px;
@@ -128,6 +137,8 @@
       color: #ffffff;
       text-weight: bold;
       padding-bottom: 40px;
+      font-family: "Helvetica Neue";
+      font-style: normal;
     }
 
     form {
