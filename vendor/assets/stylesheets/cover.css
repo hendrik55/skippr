@@ -4,11 +4,16 @@
   padding: 15px 30px 0 30px;
 }
 
+.logo-skippr {
+  margin-top: -5px;
+}
+
 .masthead-nav {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .masthead.clearfix {
+
   background-color: #ffffff;
 }
 
@@ -45,7 +50,9 @@
 .masthead-brand {
   float: left;
 }
+
 .masthead-nav {
+  margin-top: 20px;
   float: right;
 }
 
