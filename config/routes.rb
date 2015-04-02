@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   
   resource :home, controller: 'homes'
+  resources :contacts
 
   root to: "homes#show"
   

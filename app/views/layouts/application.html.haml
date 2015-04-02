@@ -22,7 +22,7 @@
                   = link_to "Tools", "#"
                 %li
                   = link_to "Pricing", "#"
-                %li
-                  = link_to "Contact", "#"
+                %li{class: current_page?(contacts_path) && 'active'}
+                  = link_to 'Contact', contacts_path
 
         = yield
