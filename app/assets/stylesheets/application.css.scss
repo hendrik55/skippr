@@ -14,7 +14,6 @@
  */
 
 @import "bootstrap";
-@import "non-responsive";
 @import "cover";
 
 @font-face {
@@ -149,7 +148,6 @@
   text-align: center;
   height: 700px;
   background: url("image_2.jpg") no-repeat center center;
-  background-size: cover;
   margin-top: 50px;
 
   .about-form {
@@ -164,9 +162,6 @@
     }
 
     form {
-      width: 600px;
-      margin: 0 auto;
-
       .form-group {
         margin-top: -10px;
 
@@ -182,7 +177,7 @@
       }
 
       .btn.btn-warning.btn-lg {
-        width: 600px;
+        width: 100%;
         height: 60px;
         border-radius: 0px;
         margin-top: -10px;

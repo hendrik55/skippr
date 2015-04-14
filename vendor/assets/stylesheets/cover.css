@@ -96,3 +96,9 @@ ul li.active:after {
   float: right;
 }
 
+
+@media (min-width: 768px) {
+  h1.instagram-mark {
+    font-size: 10px;
+  }
+}
