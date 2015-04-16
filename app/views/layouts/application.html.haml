@@ -8,12 +8,34 @@
   %body
     .site-wrapper
       .cover-container
-        .masthead.clearfix
-          .inner
-            .logo-skippr
+        -# .masthead.clearfix
+        -#   .inner
+        -#     .logo-skippr
+        -#       = link_to image_tag("Logo.png", class: 'masthead-brand', width: '250px'), root_path
+        -#     %nav
+        -#       %ul.nav.masthead-nav
+        -#         %li{class: current_page?(home_path) && 'active'}
+        -#           = link_to 'Home', home_path
+        -#         %li
+        -#           = link_to "Consultancy", "#"
+        -#         %li
+        -#           = link_to "Tools", "#"
+        -#         %li
+        -#           = link_to "Pricing", "#"
+        -#         %li{class: current_page?(contacts_path) && 'active'}
+        -#           = link_to 'Contact', contacts_path
+
+        %nav.navbar.navbar-default
+          .container-fluid
+            .navbar-header
+              %button.navbar-toggle.collapsed{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+                %span.sr-only Toggle navigation
+                %span.icon-bar
+                %span.icon-bar
+                %span.icon-bar
               = link_to image_tag("Logo.png", class: 'masthead-brand', width: '250px'), root_path
-            %nav
-              %ul.nav.masthead-nav
+            #bs-example-navbar-collapse-1.collapse.navbar-collapse
+              %ul.nav.navbar-nav.navbar-right
                 %li{class: current_page?(home_path) && 'active'}
                   = link_to 'Home', home_path
                 %li
