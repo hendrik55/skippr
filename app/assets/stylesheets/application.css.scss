@@ -45,6 +45,16 @@ ul {
   }
 }
 
+@media (max-width:767px) {
+
+  ul {
+    li {
+      width: 442px;
+    }
+  }
+
+}
+
 .nav {
   > li {
     > a {
@@ -79,17 +89,20 @@ ul {
         background-color: #FFFFFF;
         border-bottom: 3px solid #5C5C5C;
         height: 64px;
+        font-weight: bold;
 
         &:hover {
           background-color: #FFFFFF;
           border-bottom: 3px solid #5C5C5C;
           height: 64px;
+          font-weight: bold;
         }
         
         &:focus {
           background-color: #FFFFFF;
           border-bottom: 3px solid #5C5C5C;
           height: 64px;
+          font-weight: bold;
         }
       }
     } 
