@@ -29,6 +29,26 @@ nav.navbar.navbar-default {
   margin: 0;
 }
 
+.navbar-default {
+  .navbar-collapse {
+    border-color: #FFFFFF;
+  }
+}
+
+.navbar-default {
+  .navbar-form {
+    border-color: #FFFFFF;
+  }
+}
+
+@media (max-width: 767px) {
+  
+  div.navbar-header {
+    border: 0;
+  }
+
+}
+
 ul {
   li {
     cursor: pointer;
@@ -49,7 +69,7 @@ ul {
 
   ul {
     li {
-      width: 442px;
+      width: 100%;
     }
   }
 
@@ -175,7 +195,7 @@ ul {
   }
 
   .form-log {
-    margin-top: 100px;
+    margin-top: 180px;
     text-align: center; 
 
     .form-inline {
