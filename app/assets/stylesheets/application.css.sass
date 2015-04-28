@@ -1,0 +1,279 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_self
+ */
+
+@import "bootstrap"
+
+@font-face 
+  font-family: "Helvetica Neue"
+  src: url('HelveticaNeueLTStd Lt.otf')
+  font-weight: normal
+  font-style: normal
+
+
+// Navigation
+nav.navbar.navbar-default 
+  background-color: #FFFFFF
+  border-color: #FFFFFF
+  margin: 0
+
+@media (max-width:767px) 
+  div.navbar-header 
+    border: 0
+
+ul 
+  li 
+    cursor: pointer
+    margin: 0
+    width: 100px
+    height: 40px
+    line-height: 50px
+    position: relative
+    text-align: center
+
+    a 
+      margin-top: 12px
+
+@media (max-width:767px) 
+  ul 
+    li 
+      width: 100%
+
+.nav 
+  > li 
+    > a 
+      &:hover 
+        background-color: #FFFFFF
+        border-bottom: 3px solid #a9a9a9
+        height: 64px
+
+@media (max-width:767px) 
+  .nav 
+    > li 
+      > a 
+        &:hover 
+          height: 40px
+
+.navbar-default 
+  .navbar-collapse 
+    border-color: #FFFFFF
+
+  .navbar-form 
+    border-color: #FFFFFF
+
+  .navbar-nav 
+    > .active 
+      a 
+        background-color: #FFFFFF
+        border-bottom: 3px solid #5C5C5C
+        height: 64px
+        font-weight: bold
+
+        &:hover 
+          background-color: #FFFFFF
+          border-bottom: 3px solid #5C5C5C
+          height: 64px
+          font-weight: bold
+
+        &:focus 
+          background-color: #FFFFFF
+          border-bottom: 3px solid #5C5C5C
+          height: 64px
+          font-weight: bold
+
+@media (max-width:767px) 
+  .navbar-default 
+    .navbar-nav 
+      > .active 
+        a 
+          background-color: #FFFFFF
+          border-bottom: 3px solid #5C5C5C
+          height: 40px
+
+          &:hover 
+            background-color: #FFFFFF
+            border-bottom: 3px solid #5C5C5C
+            height: 40px
+
+          &:focus 
+            background-color: #FFFFFF
+            border-bottom: 3px solid #5C5C5C
+            height: 40px
+
+
+//------------------------------ Content-------------------------------
+.the-first 
+  background: url("image_1.jpg") no-repeat center center
+  background-size: cover
+  height: 550px
+  color: #FFFFFF
+  text-weight: bold
+  margin-top: 10px
+
+  .top-title 
+    font-family: "Helvetica Neue"
+
+    h1 
+      font-size: 50px
+
+    h3 
+      font-size: 26px
+
+  @media (max-width:767px)     
+    .top-title 
+      font-family: "Helvetica Neue"
+
+      h1 
+        font-size: 30px
+
+      h3 
+        font-size: 15px
+
+  .form-log 
+    margin-top: 180px
+    text-align: center 
+
+    .form-inline 
+      width: 950px
+      height: 75px
+      padding: 15px
+      margin-left: auto
+      margin-right: auto
+      background-color: rgba(0, 0, 0, 0.5)
+
+      .form-group   
+        .form-control.input-lg 
+          background: rgba(255,255,255, 0.8)
+          border-radius: 0
+
+      button.btn.btn-success.btn-lg 
+        width: 227px
+        border-radius: 0
+        background-color: #579799
+        border: 1px solid #579799
+
+      @media (max-width:767px) 
+        button.btn.btn-success.btn-lg 
+          width: 100%
+          border-radius: 0
+          background-color: #579799
+          border: 1px solid #579799
+
+    @media (max-width:767px) 
+      .form-inline 
+        width: 100%
+        height: 100%
+        padding: 15px
+        margin-left: auto
+        margin-right: auto
+        background-color: rgba(0, 0, 0, 0.5)
+
+        .form-group   
+          .form-control.input-lg 
+            background: rgba(255,255,255, 0.8)
+            border-radius: 0
+
+
+.the-ctr 
+  text-align: center
+  font-family: "Helvetica Neue"
+
+  .title-inside 
+    padding-top: 20px
+    padding-bottom: 20px
+
+    h1 
+      color: #5C5C5C
+      font-weight: bold
+
+    h3 
+      color: #5C5C5C 
+      font-weight: bold
+
+    h4 
+      color: #5C5C5C
+      font-size: 16px
+
+  .text-left 
+    .media 
+      .media-body 
+        text-align: left
+        padding-bottom: 15px
+
+        h4.media-heading 
+          color: #5C5C5C
+          font-size: 17px
+          font-weight: bold
+
+        p 
+          color: #858585
+
+  .vertical-line 
+    width: 2px
+    height: 294px
+    background-color: #858585
+    margin: 0 auto
+
+  .text-right 
+    .media 
+      .media-body 
+        text-align: right
+        padding-bottom: 15px
+        
+        h4.media-heading 
+          color: #5C5C5C
+          font-size: 17px
+          font-weight: bold
+
+        p 
+          color: #858585
+
+.form-homepage 
+  text-align: center
+  height: 700px
+  background: url("image_2.jpg") no-repeat center center
+  margin-top: 50px
+
+  .about-form 
+    padding-top: 50px
+
+    .form-title 
+      color: #FFFFFF
+      text-weight: bold
+      padding-bottom: 40px
+      font-family: "Helvetica Neue"
+      font-style: normal
+
+    form 
+      .form-group 
+        margin-top: -10px
+
+        .form-control.input-lg 
+          border-radius: 0
+          color: #000000
+          background: rgba(255,255,255, 0.8)
+
+        textarea.form-control.input-lg 
+          height : 200px
+
+      .btn.btn-warning.btn-lg 
+        width: 100%
+        height: 60px
+        border-radius: 0
+        margin-top: -10px
+      
+    
+    
+
+
